@@ -1,0 +1,33 @@
+body{
+    background-color: aqua;
+    }
+h1{
+    font-family: Georgia, 'Times New Roman', Times, sans-serif ;
+    font-weight: bold;
+    color: navy;
+    background-color: azure;
+}
+#show_sketch{
+    float: right;
+}
+canvas{
+    border: 3px solid white;
+    border-radius: 20px;
+    margin-top: 100px;
+    animation-name: color_anime;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes color_anime{
+    from{box-shadow: 2px 2px 39px red}
+    to{ box-shadow: 2px 2px 39px pink}
+}
+p{ 
+    padding-top: 10px;
+    font-size: 25px;
+}
+.model-title{
+    color: beige;
+    background-color: blue;
+}
